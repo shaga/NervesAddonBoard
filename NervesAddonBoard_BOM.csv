@@ -1,0 +1,6 @@
+"ID";"参照記号";"パッケージ";"数";"名称";"Supplier and ref";
+1;"IC1";"SOIC127P600X175-8N";1;"ATECC608A-SSHDA-B";;;
+2;"REF**,REF**,REF**,REF**";"MountingHole_2.7mm_Pad";4;"MountingHole_2.7mm_Pad";;;
+3;"J1";"RPi2x20THL";1;"Conn_02x20_Odd_Even";;;
+4;"C1";"C_0402";1;"C";;;
+5;"J2,J3,J4";"Grove_1x04_90";3;"Grove_4pin_connector";;;

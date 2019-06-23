@@ -1,0 +1,354 @@
+EESchema Schematic File Version 4
+LIBS:aaaa-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L NervesAddon_Library:Conn_02x20_Odd_Even J1
+U 1 1 5D0E27C1
+P 1500 1800
+F 0 "J1" H 1550 2917 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 1550 2826 50  0000 C CNN
+F 2 "NervesAddonBoard.foot:RPi2x20THL" H 1500 1800 50  0001 C CNN
+F 3 "~" H 1500 1800 50  0001 C CNN
+	1    1500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:ATECC608A-SSHDA-B IC1
+U 1 1 5D0E5BBD
+P 2700 900
+F 0 "IC1" H 3250 1165 50  0000 C CNN
+F 1 "ATECC608A-SSHDA-B" H 3250 1074 50  0000 C CNN
+F 2 "NervesAddonBoard.foot:SOIC127P600X175-8N" H 3650 1000 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/1654499P" H 3650 900 50  0001 L CNN
+F 4 "Cryptoathentication ECC608A SOIC" H 3650 800 50  0001 L CNN "Description"
+F 5 "1.75" H 3650 700 50  0001 L CNN "Height"
+F 6 "1654499P" H 3650 600 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/1654499P" H 3650 500 50  0001 L CNN "RS Price/Stock"
+F 8 "Microchip" H 3650 400 50  0001 L CNN "Manufacturer_Name"
+F 9 "ATECC608A-SSHDA-B" H 3650 300 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2700 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:+3.3V #PWR0101
+U 1 1 5D0E67D4
+P 4300 800
+F 0 "#PWR0101" H 4300 650 50  0001 C CNN
+F 1 "+3.3V" H 4315 973 50  0000 C CNN
+F 2 "" H 4300 800 50  0001 C CNN
+F 3 "" H 4300 800 50  0001 C CNN
+	1    4300 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:+3.3V #PWR0102
+U 1 1 5D0E716F
+P 1100 800
+F 0 "#PWR0102" H 1100 650 50  0001 C CNN
+F 1 "+3.3V" H 1115 973 50  0000 C CNN
+F 2 "" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0001 C CNN
+	1    1100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:GND #PWR0103
+U 1 1 5D0E7441
+P 2600 1300
+F 0 "#PWR0103" H 2600 1050 50  0001 C CNN
+F 1 "GND" H 2605 1127 50  0000 C CNN
+F 2 "" H 2600 1300 50  0001 C CNN
+F 3 "" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:GND #PWR0104
+U 1 1 5D0E7A2E
+P 4300 1300
+F 0 "#PWR0104" H 4300 1050 50  0001 C CNN
+F 1 "GND" H 4305 1127 50  0000 C CNN
+F 2 "" H 4300 1300 50  0001 C CNN
+F 3 "" H 4300 1300 50  0001 C CNN
+	1    4300 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:Grove_4pin_connector J2
+U 1 1 5D0E7D6C
+P 1600 3650
+F 0 "J2" H 1680 3642 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 1680 3551 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04_90" H 1680 3505 50  0001 L CNN
+F 3 "~" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:Grove_4pin_connector J4
+U 1 1 5D0E8FA6
+P 4650 3650
+F 0 "J4" H 4730 3642 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 4730 3551 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04_90" H 4650 3650 50  0001 C CNN
+F 3 "~" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+Text Label 1100 1100 0    50   ~ 0
+SCL
+Text Label 1100 1000 0    50   ~ 0
+SDA
+Text Label 1250 3550 0    50   ~ 0
+SCL
+Text Label 1250 3650 0    50   ~ 0
+SDA
+Text Label 4250 3550 0    50   ~ 0
+IO20
+Text Label 4250 3650 0    50   ~ 0
+IO21
+Text Label 2150 1200 2    50   ~ 0
+IO14_TxD
+Text Label 2150 1300 2    50   ~ 0
+IO15_RxD
+Text Label 2150 2700 2    50   ~ 0
+IO20
+Text Label 2150 2800 2    50   ~ 0
+IO21
+Text Label 4000 1100 2    50   ~ 0
+SCL
+Text Label 4000 1200 2    50   ~ 0
+SDA
+Wire Wire Line
+	1300 900  1100 900 
+Wire Wire Line
+	1100 900  1100 800 
+Wire Wire Line
+	1100 1000 1300 1000
+Wire Wire Line
+	1300 1100 1100 1100
+Wire Wire Line
+	1800 1200 2150 1200
+Wire Wire Line
+	2150 1300 1800 1300
+Wire Wire Line
+	1800 2700 2150 2700
+Wire Wire Line
+	2150 2800 1800 2800
+Wire Wire Line
+	1250 3550 1400 3550
+Wire Wire Line
+	1400 3650 1250 3650
+Wire Wire Line
+	4450 3550 4250 3550
+Wire Wire Line
+	4250 3650 4450 3650
+Wire Wire Line
+	3800 1100 4000 1100
+Wire Wire Line
+	4000 1200 3800 1200
+$Comp
+L NervesAddon_Library:C C1
+U 1 1 5D0ED193
+P 4300 1050
+F 0 "C1" H 4415 1096 50  0000 L CNN
+F 1 "C" H 4415 1005 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:C_0402" H 4338 900 50  0001 C CNN
+F 3 "~" H 4300 1050 50  0001 C CNN
+	1    4300 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 900  4300 900 
+Wire Wire Line
+	4300 800  4300 900 
+Connection ~ 4300 900 
+Wire Wire Line
+	4300 1200 4300 1300
+Wire Wire Line
+	2600 1300 2600 1200
+Wire Wire Line
+	2600 1200 2700 1200
+$Comp
+L NervesAddon_Library:GND #PWR0105
+U 1 1 5D0EE7A0
+P 1100 2900
+F 0 "#PWR0105" H 1100 2650 50  0001 C CNN
+F 1 "GND" H 1105 2727 50  0000 C CNN
+F 2 "" H 1100 2900 50  0001 C CNN
+F 3 "" H 1100 2900 50  0001 C CNN
+	1    1100 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:GND #PWR0106
+U 1 1 5D0EE998
+P 2200 2900
+F 0 "#PWR0106" H 2200 2650 50  0001 C CNN
+F 1 "GND" H 2205 2727 50  0000 C CNN
+F 2 "" H 2200 2900 50  0001 C CNN
+F 3 "" H 2200 2900 50  0001 C CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:GND #PWR0107
+U 1 1 5D0EEB9C
+P 1300 3950
+F 0 "#PWR0107" H 1300 3700 50  0001 C CNN
+F 1 "GND" H 1305 3777 50  0000 C CNN
+F 2 "" H 1300 3950 50  0001 C CNN
+F 3 "" H 1300 3950 50  0001 C CNN
+	1    1300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:GND #PWR0108
+U 1 1 5D0EEFC8
+P 4350 3950
+F 0 "#PWR0108" H 4350 3700 50  0001 C CNN
+F 1 "GND" H 4355 3777 50  0000 C CNN
+F 2 "" H 4350 3950 50  0001 C CNN
+F 3 "" H 4350 3950 50  0001 C CNN
+	1    4350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1100 2200 1100
+Wire Wire Line
+	2200 1100 2200 1500
+Wire Wire Line
+	1800 1500 2200 1500
+Connection ~ 2200 1500
+Wire Wire Line
+	2200 1500 2200 1800
+Wire Wire Line
+	1800 1800 2200 1800
+Connection ~ 2200 1800
+Wire Wire Line
+	2200 1800 2200 2300
+Wire Wire Line
+	1800 2300 2200 2300
+Connection ~ 2200 2300
+Wire Wire Line
+	2200 2300 2200 2500
+Wire Wire Line
+	1800 2500 2200 2500
+Connection ~ 2200 2500
+Wire Wire Line
+	2200 2500 2200 2900
+Wire Wire Line
+	1300 2800 1100 2800
+Wire Wire Line
+	1100 2800 1100 2900
+Wire Wire Line
+	1300 2100 1100 2100
+Wire Wire Line
+	1100 2100 1100 2800
+Connection ~ 1100 2800
+Wire Wire Line
+	1300 1300 1100 1300
+Wire Wire Line
+	1100 1300 1100 2100
+Connection ~ 1100 2100
+Wire Wire Line
+	1400 3850 1300 3850
+Wire Wire Line
+	1300 3850 1300 3950
+Wire Wire Line
+	4450 3850 4350 3850
+Wire Wire Line
+	4350 3850 4350 3950
+$Comp
+L NervesAddon_Library:+3.3V #PWR0109
+U 1 1 5D0F43CB
+P 1150 3450
+F 0 "#PWR0109" H 1150 3300 50  0001 C CNN
+F 1 "+3.3V" H 1165 3623 50  0000 C CNN
+F 2 "" H 1150 3450 50  0001 C CNN
+F 3 "" H 1150 3450 50  0001 C CNN
+	1    1150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L NervesAddon_Library:+3.3V #PWR0110
+U 1 1 5D0F4875
+P 4200 3450
+F 0 "#PWR0110" H 4200 3300 50  0001 C CNN
+F 1 "+3.3V" H 4215 3623 50  0000 C CNN
+F 2 "" H 4200 3450 50  0001 C CNN
+F 3 "" H 4200 3450 50  0001 C CNN
+	1    4200 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3750 1150 3750
+Wire Wire Line
+	1150 3750 1150 3450
+Wire Wire Line
+	4200 3450 4200 3750
+Wire Wire Line
+	4200 3750 4450 3750
+Wire Wire Line
+	2650 3750 3050 3750
+Wire Wire Line
+	2650 3450 2650 3750
+$Comp
+L NervesAddon_Library:+3.3V #PWR0111
+U 1 1 5D0F4617
+P 2650 3450
+F 0 "#PWR0111" H 2650 3300 50  0001 C CNN
+F 1 "+3.3V" H 2665 3623 50  0000 C CNN
+F 2 "" H 2650 3450 50  0001 C CNN
+F 3 "" H 2650 3450 50  0001 C CNN
+	1    2650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3850 2950 3950
+Wire Wire Line
+	3050 3850 2950 3850
+$Comp
+L NervesAddon_Library:GND #PWR0112
+U 1 1 5D0EEDAC
+P 2950 3950
+F 0 "#PWR0112" H 2950 3700 50  0001 C CNN
+F 1 "GND" H 2955 3777 50  0000 C CNN
+F 2 "" H 2950 3950 50  0001 C CNN
+F 3 "" H 2950 3950 50  0001 C CNN
+	1    2950 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3650 2700 3650
+Wire Wire Line
+	2700 3550 3050 3550
+Text Label 2700 3650 0    50   ~ 0
+IO15_RxD
+Text Label 2700 3550 0    50   ~ 0
+IO14_TxD
+$Comp
+L NervesAddon_Library:Grove_4pin_connector J3
+U 1 1 5D0E8174
+P 3250 3650
+F 0 "J3" H 3330 3642 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 3330 3551 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04_90" H 3330 3505 50  0001 L CNN
+F 3 "~" H 3250 3650 50  0001 C CNN
+	1    3250 3650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
