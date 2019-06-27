@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:NervesAddonBoard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -39,24 +38,24 @@ $EndComp
 $Comp
 L NervesAddon_Library:Grove_4pin_connector J3
 U 1 1 5D0E7D6C
-P 1600 3650
-F 0 "J3" H 1680 3642 50  0000 L CNN
-F 1 "Grove_4pin_connector" H 1680 3551 50  0000 L CNN
-F 2 "NervesAddonBoard.foot:Grove_1x04" H 1680 3505 50  0001 L CNN
-F 3 "~" H 1600 3650 50  0001 C CNN
-	1    1600 3650
-	1    0    0    -1  
+P 1600 3750
+F 0 "J3" H 1680 3742 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 1680 3651 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04" H 1680 3605 50  0001 L CNN
+F 3 "~" H 1600 3750 50  0001 C CNN
+	1    1600 3750
+	1    0    0    1   
 $EndComp
 $Comp
 L NervesAddon_Library:Grove_4pin_connector J6
 U 1 1 5D0E8FA6
-P 4650 3650
-F 0 "J6" H 4730 3642 50  0000 L CNN
-F 1 "Grove_4pin_connector" H 4730 3551 50  0000 L CNN
-F 2 "NervesAddonBoard.foot:Grove_1x04" H 4650 3650 50  0001 C CNN
-F 3 "~" H 4650 3650 50  0001 C CNN
-	1    4650 3650
-	1    0    0    -1  
+P 4650 3750
+F 0 "J6" H 4730 3742 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 4730 3651 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04" H 4650 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	1    0    0    1   
 $EndComp
 Text Label 850  1100 0    50   ~ 0
 SCL
@@ -80,14 +79,6 @@ Wire Wire Line
 	1800 2700 2150 2700
 Wire Wire Line
 	2150 2800 1800 2800
-Wire Wire Line
-	1250 3550 1400 3550
-Wire Wire Line
-	1400 3650 1250 3650
-Wire Wire Line
-	4450 3550 4250 3550
-Wire Wire Line
-	4250 3650 4450 3650
 $Comp
 L NervesAddon_Library:GND #PWR05
 U 1 1 5D0EE7A0
@@ -133,11 +124,7 @@ F 3 "" H 4350 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 3850 1300 3850
-Wire Wire Line
 	1300 3850 1300 3950
-Wire Wire Line
-	4450 3850 4350 3850
 Wire Wire Line
 	4350 3850 4350 3950
 $Comp
@@ -163,15 +150,9 @@ F 3 "" H 4200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1400 3750 1150 3750
-Wire Wire Line
 	1150 3750 1150 3450
 Wire Wire Line
 	4200 3450 4200 3750
-Wire Wire Line
-	4200 3750 4450 3750
-Wire Wire Line
-	2650 3750 3050 3750
 Wire Wire Line
 	2650 3450 2650 3750
 $Comp
@@ -187,8 +168,6 @@ F 3 "" H 2650 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2950 3850 2950 3950
-Wire Wire Line
-	3050 3850 2950 3850
 $Comp
 L NervesAddon_Library:GND #PWR010
 U 1 1 5D0EEDAC
@@ -200,10 +179,6 @@ F 3 "" H 2950 3950 50  0001 C CNN
 	1    2950 3950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 3650 2700 3650
-Wire Wire Line
-	2700 3550 3050 3550
 Text Label 2700 3650 0    50   ~ 0
 IO15_RxD
 Text Label 2700 3550 0    50   ~ 0
@@ -211,24 +186,24 @@ IO14_TxD
 $Comp
 L NervesAddon_Library:Grove_4pin_connector J4
 U 1 1 5D0E8174
-P 3250 3650
-F 0 "J4" H 3330 3642 50  0000 L CNN
-F 1 "Grove_4pin_connector" H 3330 3551 50  0000 L CNN
-F 2 "NervesAddonBoard.foot:Grove_1x04" H 3330 3505 50  0001 L CNN
-F 3 "~" H 3250 3650 50  0001 C CNN
-	1    3250 3650
-	1    0    0    -1  
+P 3250 3750
+F 0 "J4" H 3330 3742 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 3330 3651 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04" H 3330 3605 50  0001 L CNN
+F 3 "~" H 3250 3750 50  0001 C CNN
+	1    3250 3750
+	1    0    0    1   
 $EndComp
 $Comp
 L NervesAddon_Library:Grove_4pin_connector J5
 U 1 1 5D138120
-P 1600 4550
-F 0 "J5" H 1680 4542 50  0000 L CNN
-F 1 "Grove_4pin_connector" H 1680 4451 50  0000 L CNN
-F 2 "NervesAddonBoard.foot:Grove_1x04" H 1600 4550 50  0001 C CNN
-F 3 "~" H 1600 4550 50  0001 C CNN
-	1    1600 4550
-	1    0    0    -1  
+P 1600 4650
+F 0 "J5" H 1680 4642 50  0000 L CNN
+F 1 "Grove_4pin_connector" H 1680 4551 50  0000 L CNN
+F 2 "NervesAddonBoard.foot:Grove_1x04" H 1600 4650 50  0001 C CNN
+F 3 "~" H 1600 4650 50  0001 C CNN
+	1    1600 4650
+	1    0    0    1   
 $EndComp
 $Comp
 L NervesAddon_Library:Conn_02x05_Odd_Even J2
@@ -356,15 +331,7 @@ $EndComp
 Wire Wire Line
 	850  4350 850  4650
 Wire Wire Line
-	850  4650 1400 4650
-Wire Wire Line
-	1400 4750 1300 4750
-Wire Wire Line
 	1300 4750 1300 4850
-Wire Wire Line
-	1400 4450 950  4450
-Wire Wire Line
-	950  4550 1400 4550
 Wire Wire Line
 	3500 900  3900 900 
 Wire Wire Line
@@ -373,4 +340,36 @@ Wire Wire Line
 	3500 1100 3900 1100
 Wire Wire Line
 	3500 1300 3900 1300
+Wire Wire Line
+	1250 3550 1400 3550
+Wire Wire Line
+	1400 3650 1250 3650
+Wire Wire Line
+	1150 3750 1400 3750
+Wire Wire Line
+	1400 3850 1300 3850
+Wire Wire Line
+	3050 3550 2700 3550
+Wire Wire Line
+	2700 3650 3050 3650
+Wire Wire Line
+	3050 3750 2650 3750
+Wire Wire Line
+	2950 3850 3050 3850
+Wire Wire Line
+	4250 3550 4450 3550
+Wire Wire Line
+	4450 3650 4250 3650
+Wire Wire Line
+	4200 3750 4450 3750
+Wire Wire Line
+	4450 3850 4350 3850
+Wire Wire Line
+	1400 4450 950  4450
+Wire Wire Line
+	950  4550 1400 4550
+Wire Wire Line
+	1400 4650 850  4650
+Wire Wire Line
+	1300 4750 1400 4750
 $EndSCHEMATC
