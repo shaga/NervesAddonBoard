@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 28)
+    (drawings 29)
     (tracks 95)
     (zones 0)
     (modules 8)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -547,6 +547,9 @@
     )
   )
 
+  (gr_text Nerves-Addon (at 26.9 21.1) (layer F.SilkS)
+    (effects (font (size 1.2 1.2) (thickness 0.15)))
+  )
   (dimension 4.24 (width 0.15) (layer F.Fab)
     (gr_text "4.240 mm" (at 88.5 36.88 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
