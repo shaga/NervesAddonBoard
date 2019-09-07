@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name NervesAddonBoard.foot)(type KiCad)(uri ${KIPRJMOD}/NervesAddonBoard.foot.pretty)(options "")(descr ""))
+)
